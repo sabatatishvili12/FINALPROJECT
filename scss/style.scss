@@ -197,6 +197,7 @@ justify-content: center;
 }
 .mediap {
   width: 230px;
+  font-family: "ALKBasri-Light", sans-serif;
 }
 .afterheader {
   height: 274px;
@@ -269,4 +270,8 @@ justify-content: center;
    color: #dc3545; }
 .offersection {
   margin-top: 200px;
+}
+.btn-primary {
+  background-color: red;
+  border-color: red;
 }
