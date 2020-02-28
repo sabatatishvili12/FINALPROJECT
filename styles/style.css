@@ -282,7 +282,8 @@ table {
   margin: 0 auto 30px auto; }
 
 .testimony .sub-title {
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  margin-top: 20px; }
 
 .testimony h3 {
   font-size: 18px; }
@@ -316,7 +317,7 @@ table {
   border-bottom: 1px grey groove; }
 
 .sub-title {
-  margin-bottom: 5%; }
+  margin-top: 15px; }
 
 .site-section {
   margin-top: 10%; }
