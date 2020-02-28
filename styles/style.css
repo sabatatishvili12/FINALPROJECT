@@ -380,3 +380,29 @@ html {
 
 .mb-5 {
   padding-top: 5%; }
+
+.border-top {
+  border-top: 1px solid #ced4da !important; }
+
+.site-footer {
+  padding: 4em 0;
+  background: #333333; }
+
+.site-footer p {
+  color: #737373; }
+
+.site-footer h2, .site-footer h3, .site-footer h4, .site-footer h5 {
+  color: #fff; }
+
+.site-footer a {
+  color: #999999; }
+
+.site-footer a:hover {
+  color: white; }
+
+.site-footer ul li {
+  margin-bottom: 10px; }
+
+.site-footer .footer-heading {
+  font-size: 20px;
+  color: #fff; }
