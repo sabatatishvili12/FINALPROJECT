@@ -8,10 +8,11 @@
     <link rel="icon" href="images/tabicon.png">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="/node_modules/alkbasri-light/css/alkbasri-light.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <title>FINAL PROJECT</title>
 </head>
 <body style="text-align:center">
-<section class="mainheader">
+<section class="mainheader" id="1">
     <div class="firstheader">
         <div class="socialmedia">
           <a class="headersocialmedia" href="https://www.facebook.com/GeoLabEdu/"><img src="images/facebook.png" ></a>
@@ -32,16 +33,16 @@
         </div>
         <div class="uldiv">
             <ul class="ul">
-                <li class="li">მთავარი</li>
-                <li class="li">ჩვენს შესახებ</li>
-                <li class="li">პროექტები</li>
-                <li class="li">სიახლეები</li>
-                <li class="li">სერვისები</liclass="li">
-                <li class="li">კონტაქტი</li>
+                <li class="li"><a class="mtavari" href="#1">მთავარი</a></li> 
+                <li class="li"><a class="mtavari" href="#2">ჩვენს შესახებ</a></li>
+                <li class="li"><a class="mtavari" href="#4">ჩვენი გუნდი</a></li>
+                <li class="li"><a class="mtavari" href="#3">მომსახურება</a></li>
+                <li class="li"><a class="mtavari" href="#5">სერვისები</a></li>
+                <li class="li"><a class="mtavari" href="#6">კონტაქტი</a></li>
             </ul>
         </div>
     </div>
-    <div class="maintextcontainer" id="1" >
+    <div class="maintextcontainer">
        <div class="largetext">
          <h1 class="maintext">ინტერიერის დიზაინი</h1>  
        </div>
@@ -59,7 +60,7 @@
       <a href="#" onclick="lightbox_open();"><span class="show"> ჩვენება </span> </a>
     </div>
 </section>
-<section class="afterheader">
+<section class="afterheader" id="section2" >
     <div>
         <div>
             <div class="media">
@@ -102,20 +103,20 @@
                   <li>ხელმისაწვდომობა</li>
                   <li>გარანტია</li>
                 </ul>
-              <p><a href="#" class="btn btn-primary btn-lg rounded-0">შეიტყვეთ მეტი ჩვენს შესახებ</a></p>
+              <p><a href="#" class="btn btn-primary btn-lg rounded-0">შეიტყვეთ მეტი!</a></p>
             </div>
           </div>
         </div>
       </div>
 </section>
-<section class="ourteam">
+<section class="ourteam" id="4">
     <div class="site-section" id="our-team-section">
         <div class="container">
           <div class="row justify-content-center">
             <div class="col-md-7 text-center">
               <span class="sub-title">ჩვენი გუნდი</span>
               <h2 class="font-weight-bold text-black">ჩვენი გუნდი</h2>
-              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, explicabo, quasi. Magni deserunt sunt labore.</p>
+              <p class="mb-5">პროფესიონალიზმი არის ის, რაც თქვენ გჭირდებათ!</p>
             </div>
           </div>
          
@@ -180,7 +181,7 @@
         <div class="container">
           <div class="row justify-content-center">
             <div class="col-md-7 text-center">
-              <span class="sub-title">სერვისები</span>
+              <span class="sub-title">მომსახურება</span>
               <h2 class="font-weight-bold text-black">აირჩიეთ მომსახურეობა</h2>
               <p class="mb-5">ხარისხი ჩვენთვის უფრო მნიშვნელოვანია !</p>
             </div>
@@ -189,7 +190,7 @@
             <div class="col-lg-4 col-md-6 mb-4 mb-lg-0 pricing">
               <div class="border p-5 text-center rounded">
                 <h3>საბაზისო</h3>
-                <div class="price mb-3"><sup class="currency">$</sup><span class="number">30</span> <span class="per">/m2</span></div>
+                <div class="price mb-3"><sup class="currency"></sup><span class="number">30$</span> <span class="per">/m2</span></div>
                 <p class="text-muted mb-4"></p>
                 <ul class="list-unstyled ul-check text-left success mb-5">
                   <li>პროექტი 3 თვემდე ვადით</li>
@@ -204,7 +205,7 @@
             <div class="col-lg-4 col-md-6 mb-4 mb-lg-0 pricing">
               <div class="border p-5 text-center rounded">
                 <h3>პროფესიონალი</h3>
-                <div class="price mb-3"><sup class="currency">$</sup><span class="number">72</span> <span class="per">/m2</span></div>
+                <div class="price mb-3"><sup class="currency"></sup><span class="number">72$</span> <span class="per">/m2</span></div>
                 <p class="text-muted mb-4"></p>
                 <ul class="list-unstyled ul-check text-left success mb-5">
                   <li>პროექტი 1 თვემდე ვადით</li>
@@ -219,7 +220,7 @@
             <div class="col-lg-4 col-md-6 mb-4 mb-lg-0 pricing">
               <div class="border p-5 text-center rounded">
                 <h3>ექსპერტი</h3>
-                <div class="price mb-3"><sup class="currency">$</sup><span class="number">130</span> <span class="per">/year</span></div>
+                <div class="price mb-3"><sup class="currency"></sup><span class="number">130$</span> <span class="per">/year</span></div>
                 <p class="text-muted mb-4"></p>
                 <ul class="list-unstyled ul-check text-left success mb-5">
                   <li>პროექტი 1 კვირამდე ვადით</li>
@@ -235,7 +236,243 @@
         </div>
       </div>
 </section>
+<section class="happyclients"  >
+    <div class="container site-section block-13 testimonial-wrap">
 
+        <div class="row">
+          <div class="col-12 text-center">
+            <span class="sub-title">ჩვენი მომხმარებლები</span>
+          </div>
+        </div>
+  
+        <div class="nonloop-block-13 owl-carousel">
+          
+          <div class="testimony px-5">
+            <img src="images/person_1.jpg" alt="Image" class="img-fluid">
+            <h3>მარიამ ჯეოლაბიძე</h3>
+            <span class="sub-title">სამშენებლო კომპანიის მფლობელი.</span>
+            <p>&ldquo;<em>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium non eligendi totam natus ullam cumque! Assumenda optio, ad in! Nesciunt natus veritatis hic iste quas. Sunt iste autem vel repudiandae.</em>&rdquo;</p>
+          </div>
+        
+          <div class="testimony px-5">
+            <img src="images/person_2.jpg" alt="Image" class="img-fluid">
+            <h3>გელა ჯეოლაბიშვილი</h3>
+            <span class="sub-title">ბროკერი</span>
+            <p>&ldquo;<em>Eveniet, laboriosam impedit facilis. Voluptatem, repudiandae eligendi maiores sunt itaque, dolores voluptas labore perferendis, illum tenetur suscipit vero officia. Quaerat facilis cum ex a labore iusto, beatae fuga nam rem, quos vel aliquam nobis.</em>&rdquo;</p>
+          </div>
+  
+          <div class="testimony px-5">
+            <img src="images/person_3.jpg" alt="Image" class="img-fluid">
+            <h3>გიორგი დარცემლიძე</h3>
+            <span class="sub-title">საინვესტიციო კომპანიის მფლობელი</span>
+            <p>&ldquo;<em>Laboriosam nisi natus quos soluta blanditiis iste in distinctio fugiat perferendis, architecto eveniet provident, consequatur dolore ab nihil voluptatibus laborum magnam cum assumenda nobis, nam quam quae! Unde porro laboriosam nam qui! Eligendi, qui!</em>&rdquo;</p>
+          </div>
+  
+          <div class="testimony px-5">
+            <img src="images/person_4.jpg" alt="Image" class="img-fluid">
+            <h3>ბადრი სანაია</h3>
+            <span class="sub-title">ბიზნესმენი</span>
+            <p>&ldquo;<em>Voluptatibus sed vero corporis reiciendis, ducimus iste aliquam doloribus voluptas nam quo assumenda perferendis excepturi accusantium, ipsam minus tempora earum exercitationem laborum. Delectus voluptate quaerat repellat obcaecati. Qui nemo ad similique facere modi dolores.</em>&rdquo;</p>
+          </div>
+        </div>
+      </div>
+  
+</section>
+<section class="ourprojects">
+    <div class="site-section" id="projects-section">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-7 text-center">
+              <span class="sub-title">საუკეთესო პროექტები</span>
+              <h2 class="font-weight-bold text-black">ჩვენი პროექტები</h2>
+              <p class="mb-5">ინტერიერის დიზაინი და სარემონტო სამუშაოები</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4 project-entry">
+              <a href="images/img_1.jpg" class="d-block figure" data-fancybox="gallery">
+                <img src="images/img_1.jpg" alt="Image" class="img-fluid">
+              </a>
+              <h3 class="mb-0"><a href="#">ინტერიერის დიზაინი</a></h3>
+              <span class="text-muted">ინტერიერი</span>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4 project-entry">
+              <a href="images/img_2.jpg" class="d-block figure" data-fancybox="gallery">
+                <img src="images/img_2.jpg" alt="Image" class="img-fluid">
+              </a>
+              <h3 class="mb-0"><a href="#">საძინებლის ინტერიერის დიზაინი</a></h3>
+              <span class="text-muted">დიზაინი</span>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4 project-entry">
+              <a href="images/img_3.jpg" class="d-block figure" data-fancybox="gallery">
+                <img src="images/img_3.jpg" alt="Image" class="img-fluid">
+              </a>
+              <h3 class="mb-0"><a href="#">სამზარეულოს დიზაინი</a></h3>
+              <span class="text-muted">ინტერიერი</span>
+            </div>
+  
+            <div class="col-lg-4 col-md-6 mb-4 project-entry">
+              <a href="images/img_4.jpg" class="d-block figure" data-fancybox="gallery">
+                <img src="images/img_4.jpg" alt="Image" class="img-fluid">
+              </a>
+              <h3 class="mb-0"><a href="#">მისაღების ინტერიერის დიზაინი</a></h3>
+              <span class="text-muted">ინტერიერი</span>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4 project-entry">
+              <a href="images/img_5.jpg" class="d-block figure" data-fancybox="gallery">
+                <img src="images/img_5.jpg" alt="Image" class="img-fluid">
+              </a>
+              <h3 class="mb-0"><a href="#">მოსასვენებლი ოთახის დიზაინი</a></h3>
+              <span class="text-muted">დიზაინი</span>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4 project-entry">
+              <a href="images/img_6.jpg" class="d-block figure" data-fancybox="gallery">
+                <img src="images/img_1.jpg" alt="Image" class="img-fluid">
+              </a>
+              <h3 class="mb-0"><a href="#">ინტერიერის დიზაინი</a></h3>
+              <span class="text-muted">ინტერიერი</span>
+            </div>
+          </div>
+        </div>
+      </div>
+</section>
+<section class="news" id="">
+    <div class="site-section" id="news-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 text-center">
+              <span class="sub-title">სიახლეები &amp; ახალი ამბები</span>
+              <h2 class="font-weight-bold text-black mb-5">ჩვენი ბლოგი</h2>
+            </div>
+          </div>
+          <div class="row mb-5">
+            <div class="col-lg-4 col-md-6 mb-4 mb-lg-0 post-entry">
+              <a href="index.html" class="d-block figure">
+                <img src="images/img_1.jpg" alt="Image" class="img-fluid">
+              </a>
+              <span class="text-muted d-block mb-1">21, თებერვალი 2020</span>
+              <h3><a href="">არქიტექტორული ხელოვნება</a></h3>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4 mb-lg-0 post-entry">
+              <a href="index.html" class="d-block figure">
+                <img src="images/img_2.jpg" alt="Image" class="img-fluid">
+              </a>
+              <span class="text-muted d-block mb-1">24, თებერვალი 2020</span>
+              <h3><a href="">არქიტექტორული ხელოვნება</a></h3>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4 mb-lg-0 post-entry">
+              <a href="index.html" class="d-block figure">
+                <img src="images/img_3.jpg" alt="Image" class="img-fluid">
+              </a>
+              <span class="text-muted d-block mb-1">25, თებერვალი 2020</span>
+              <h3><a href="index.html">არქიტექტორული ხელოვნება</a></h3>
+            </div>
+</section>
+<section class="services" id="5">
+    <div class="site-section" id="services-section">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-7 text-center">
+              <span class="sub-title">სერვისები</span>
+              <h2 class="font-weight-bold text-black">ჩვენი სერვისები</h2>
+              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, explicabo, quasi. Magni deserunt sunt labore.</p>
+            </div>
+          </div>
+  
+          <div class="row">
+  
+            <div class="col-lg-4 col-md-6 mb-5">
+              <div class="media custom-media">
+                <div class="mr-3 icon"><img src="images/inovation.png" alt="bath"></span></div>
+                <div class="media-body">
+                  <h5 class="mt-0">ინოვაციური სტრუქტურა</h5>
+                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin..
+                </div>
+              </div>
+            </div>
+  
+  
+            <div class="col-lg-4 col-md-6 mb-5">
+              <div class="media custom-media">
+                <div class="mr-3 icon"><img src="images/design.png" alt="bath"></span></div>
+                <div class="media-body">
+                  <h5 class="mt-0">არქიტექტურის დიზაინი</h5>
+                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin..
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-lg-4 col-md-6 mb-5">
+              <div class="media custom-media">
+                <div class="mr-3 icon"> <img src="images/chair.png" alt="bath"></span></div>
+                <div class="media-body">
+                  <h5 class="mt-0">ინტერიერის დიზაინი</h5>
+                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin..
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-lg-4 col-md-6 mb-5">
+              <div class="media custom-media">
+                <div class="mr-3 icon"><span> <img src="images/bath.png" alt="bath"></span></div>
+                <div class="media-body">
+                  <h5 class="mt-0">სააბაზანოს დიზაინი</h5>
+                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin..
+                </div>
+              </div>
+            </div>
+  
+  
+            <div class="col-lg-4 col-md-6 mb-5">
+              <div class="media custom-media">
+                <div class="mr-3 icon"><span><img src="images/arch.png" alt="bath"> </span> </div>
+                <div class="media-body">
+                  <h5 class="mt-0">პროფესიონალური დიზაინი</h5>
+                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin..
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-lg-4 col-md-6 mb-5">
+              <div class="media custom-media">
+                <div class="mr-3 icon"><span> <img src="images/bed.png" alt="bed"> </span> </div>
+                <div class="media-body">
+                  <h5 class="mt-0">საძინებლის დიზაინი</h5>
+                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin..
+                </div>
+              </div>
+            </div>
+  
+          </div>
+        </div>
+      </div>
+</section>
+<section class="contact" id="6">
+    <h3 class="contacth3">კონტაქტი</h3>
+
+    <div class="container">
+      <form action="/action_page.php">
+        <label for="fname">სახელი</label>
+        <input type="text" id="fname" name="firstname" placeholder="თქვენი სახელი..">
+    
+        <label for="lname">გვარი</label>
+        <input type="text" id="lname" name="lastname" placeholder="თქვენი გვარი..">
+    
+        <label for="country">ქვეყანა</label>
+        <select id="country" name="country">
+          <option value="australia">საქართველო</option>
+          <option value="canada">სომხეთი</option>
+          <option value="usa">ამერიკა</option>
+        </select>
+    
+        <label for="subject">გაგზავნა</label>
+        <textarea id="subject" name="subject" placeholder="შეიყვანეთ ტექსტი.." style="height:200px"></textarea>
+    
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+    
+</section>
 
 
 
@@ -268,5 +505,21 @@ function lightbox_close() {
   document.getElementById('fade').style.display = 'none';
   lightBoxVideo.pause();
 }
+</script>
+<script>
+    window.scroll({
+  top: 2500, 
+  left: 0, 
+  behavior: 'smooth'
+});
+window.scrollBy({ 
+  top: 100,
+  left: 0, 
+  behavior: 'smooth' 
+});
+
+document.querySelector('.hello').scrollIntoView({ 
+  behavior: 'smooth' 
+});
 </script>
 </html>

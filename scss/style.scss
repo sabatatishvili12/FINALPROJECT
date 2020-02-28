@@ -40,7 +40,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
     // -------------------------------------------- RESET CSS -------------------------------
 .mainheader {
-  background-image: url("https://scontent.ftbs4-1.fna.fbcdn.net/v/t1.15752-9/s2048x2048/87514702_194085185246666_8785787501584318464_n.png?_nc_cat=104&_nc_sid=b96e70&_nc_ohc=-4f41vqntV4AX8zsc_3&_nc_ht=scontent.ftbs4-1.fna&oh=bfd8c048c90243ebc0d0d528cab53252&oe=5EF81E3B"); ;
+  background-image: url("https://scontent.ftbs6-1.fna.fbcdn.net/v/t1.15752-9/87562792_792303124513015_3513222199462854656_n.png?_nc_cat=109&_nc_sid=b96e70&_nc_ohc=JFFRvss8goAAX-6YvNh&_nc_ht=scontent.ftbs6-1.fna&oh=5cc97114da013c0c0a6ddd13b53e4fb1&oe=5EF66845"); 
   background-repeat:no-repeat;
   background-size:cover;
   height: 600px;
@@ -100,7 +100,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 .li {
   padding: 20px 20px;
-  color: grey;
+  color: white;
   font-size: 15px;
   text-decoration: none !important; }
 
@@ -209,7 +209,7 @@ justify-content: center;
   margin-bottom: 10px;;
 }
 .aboutus {
-  padding: 8%;
+  padding: 1%;
 }
 .sub-title {
   display: block;
@@ -272,6 +272,99 @@ justify-content: center;
   margin-top: 200px;
 }
 .btn-primary {
-  background-color: red;
-  border-color: red;
+  background-color: #f35c22;
+  border-color: #f35c22;
+}
+.testimony {
+  text-align: center;
+  z-index: 1;
+  position: relative;
+  padding: 30px; }
+.testimony img {
+    max-width: 100px;
+    border-radius: 50%;
+    margin: 0 auto 30px auto; }
+.testimony .sub-title {
+    margin-bottom: 30px; }
+.testimony h3 {
+    font-size: 18px; }
+.testimony p {
+    font-size: 20px; }
+.happyclients {
+  margin-top: 10%;
+  border-bottom: whitesmoke 1px groove;
+
+}
+.ourprojects {
+  margin-top: 10%;
+}
+.news {
+  margin-top: 10%;
+}
+.mtavari {
+  text-decoration: none;
+  color: white;
+}
+.mtavari:hover {
+  opacity: 40%;
+  color: black;
+}
+.rounded-0 {
+  border-radius: 40px;
+}
+.services {
+  margin-top: 8%;
+  border-bottom: 1px grey groove;
+}
+.sub-title {
+  margin-bottom: 5%;
+}
+.site-section {
+  margin-top: 10%;
+}
+
+
+
+
+
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  padding: 20px;
+}
+.contact {
+  margin-top: 8%;
+}
+.contacth3 {
+  margin-bottom: 5%;
+  font-size: 12px;
+  color: red;
+}
+html {
+  scroll-behavior: smooth;
 }
